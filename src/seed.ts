@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 const MONGODB_URI =
   process.env.MONGODB_URI ??
-  "mongodb://localhost:27017/beacon-dev-challenge";
+  "mongodb+srv://diegomossonava248_db_user:prueba123@cluster0.zlqvrbm.mongodb.net/beacon_catalog?appName=Cluster0";
 
 // ─── Product Shape ──────────────────────────────────────────────────────────
 // This is the schema candidates should replicate in their Mongoose model.
